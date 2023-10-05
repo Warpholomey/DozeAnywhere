@@ -2,6 +2,7 @@
 	"Author": "Warpholomey",
 	"Name": "DozeAnywhere",
 	"Punchline": "",
+	"RepoUrl": "https://github.com/Warpholomey/DozeAnywhere/",
 	"Description": "Allows you to sit or doze anywhere. This can be achieved without plugins by using a HEX editor, but some people may find it more convenient.",
 	"InternalName": "DozeAnywhere",
 	"ApplicableVersion": "any",
