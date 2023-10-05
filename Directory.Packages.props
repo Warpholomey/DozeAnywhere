@@ -1,0 +1,8 @@
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="DalamudPackager" Version="2.1.12" />
+	</ItemGroup>
+</Project>
