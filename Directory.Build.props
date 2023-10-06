@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<Title>DozeAnywhere</Title>
 		<Authors>Warpholomey</Authors>
-		<Version>1.0.0.0</Version>
+		<Version>1.1.0.0</Version>
 		<RootNamespace>DozeAnywhere</RootNamespace>
 		<TargetFramework>net7.0-windows</TargetFramework>
 		<Platforms>x64</Platforms>

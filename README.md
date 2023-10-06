@@ -21,3 +21,13 @@ This macro default /doze emote and «doze anywhere» if ALT is pressed:
 /micon "Doze" emote
 /xdoze
 ```
+
+## Standalone
+
+You can also create «standalone» actions that will continue to work even if the plugin is removed:
+
+```
+/createicons [sit/doze] [1-18] [1-12]
+```
+
+The second and third arguments determines in which hotbar and slot new action button should be created.
