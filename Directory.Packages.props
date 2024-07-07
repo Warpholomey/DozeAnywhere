@@ -3,6 +3,6 @@
 		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageVersion Include="DalamudPackager" Version="2.1.12" />
+		<PackageVersion Include="DalamudPackager" Version="2.1.13" />
 	</ItemGroup>
 </Project>

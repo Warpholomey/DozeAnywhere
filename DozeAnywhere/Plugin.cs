@@ -7,6 +7,7 @@ using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Client.UI.Misc;
 
 using Framework = FFXIVClientStructs.FFXIV.Client.System.Framework.Framework;
+using HotbarSlotType = FFXIVClientStructs.FFXIV.Client.UI.Misc.RaptureHotbarModule.HotbarSlotType;
 
 namespace DozeAnywhere;
 
