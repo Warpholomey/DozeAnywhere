@@ -2,6 +2,10 @@
 
 A plugin for FFXIV that allows you to sit or doze anywhere. This can be achieved without plugins by using a HEX editor, but some people may find it more convenient.
 
+## Plugin's Repository
+
+`https://raw.githubusercontent.com/Warpholomey/DalamudPlugins/master/repository.json`
+
 ## Disclaimer
 
 **Use at your own risk. Using this plugin in public areas may result in in-game penalties.**
