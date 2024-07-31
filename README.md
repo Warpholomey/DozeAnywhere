@@ -19,7 +19,7 @@ This macro will use default /sit emote and «sit anywhere» if ALT is pressed:
 /xsit
 ```
 
-This macro default /doze emote and «doze anywhere» if ALT is pressed:
+This macro will use default /doze emote and «doze anywhere» if ALT is pressed:
 
 ```
 /micon "Doze" emote

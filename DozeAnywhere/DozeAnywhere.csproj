@@ -16,10 +16,10 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<Reference Include="Dalamud">
-			<Private>false</Private>
+			<Private>False</Private>
 		</Reference>
 		<Reference Include="ImGui.NET">
-			<Private>false</Private>
+			<Private>False</Private>
 		</Reference>
 		<Reference Include="Lumina">
 			<Private>False</Private>
