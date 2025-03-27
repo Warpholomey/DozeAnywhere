@@ -30,6 +30,9 @@
 		<Reference Include="FFXIVClientStructs">
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="InteropGenerator.Runtime">
+			<Private>False</Private>
+		</Reference>
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="DalamudPackager" />
