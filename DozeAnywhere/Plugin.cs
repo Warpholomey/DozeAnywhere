@@ -45,7 +45,7 @@ public sealed class Plugin : IDalamudPlugin
 			"/xdoze",
 			GetExecuteEmotionCommand(
 				13,
-				88,
+				99,
 				"Use default /doze emote and «doze anywhere» if ALT is pressed."));
 
 		CommandManager.AddHandler(
@@ -76,7 +76,7 @@ public sealed class Plugin : IDalamudPlugin
 				commandId = 96;
 				break;
 			case "doze":
-				commandId = 88;
+				commandId = 99;
 				break;
 			default:
 				ChatGui.PrintError("First argument should be either «sit» or «doze»!");
