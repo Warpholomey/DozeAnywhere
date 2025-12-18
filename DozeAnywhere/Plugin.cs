@@ -28,6 +28,9 @@ public sealed class Plugin : IDalamudPlugin
 	[PluginService]
 	public static IKeyState KeyState { get; private set; } = null!;
 
+	[PluginService]
+	public static IObjectTable ObjectTable { get; private set; } = null!;
+
 	private unsafe RaptureHotbarModule* RaptureHotbarModule => Framework.Instance()
 		->UIModule
 		->GetRaptureHotbarModule();
@@ -123,7 +126,7 @@ public sealed class Plugin : IDalamudPlugin
 	{
 		return new CommandInfo((command, args) =>
 		{
-			if (ClientState.LocalPlayer is null || ClientState.LocalPlayer.IsDead)
+			if (ObjectTable.LocalPlayer is null || ObjectTable.LocalPlayer.IsDead)
 			{
 				return;
 			}
